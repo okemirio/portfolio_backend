@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Enable CORS
 const corsOptions = {
-  origin: ["http://localhost:3000"],  // Add your production frontend URL here
+  origin: ["http://localhost:3000", "https://portfolio-fsb9.vercel.app"],  // Add your production frontend URL here
   credentials: true,
 };
 
